@@ -7,4 +7,4 @@ VOLUME [ "/opt/data/video/" ]
 RUN mkdir /opt/scripts
 COPY createvideosnapshotsscript.sh /opt/scripts
 RUN chmod +x /opt/scripts/createvideosnapshotsscript.sh
-ENTRYPOINT [ "./opt/scripts/createvideosnapshotsscript.sh" ]
+ENTRYPOINT [  "bash", "./opt/scripts/createvideosnapshotsscript.sh" ]
