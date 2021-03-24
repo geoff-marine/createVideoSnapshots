@@ -10,7 +10,7 @@ month="${dateparts[1]}"
 day="${dateparts[2]}"
 date="$year/$month/$day"
 v=aja-helo-1H000314
-folder=/opt/data/spidvid/video/$v
+folder=/opt/data/video/$v
 dname=$folder/$date
 updates=0
 if [ ! -d $dname ]; then
